@@ -13,7 +13,8 @@ public class InsertintoArrayFront {
     }
 
     public static void InsertElementFront(int[] array, int element, int c) {
-
+        
+        // Logic, c indicates the count of the array
         for (int i = c + 1; i > 0; i--) {
             array[i] = array[i - 1];
         }
