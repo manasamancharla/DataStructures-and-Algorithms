@@ -12,7 +12,7 @@ public class InsertintoArrayBack {
 
     }
 
-    // Logic
+    /*********** LOGIC *************************/
     public static void InsertElementBack(int[] array, int element, int c) {
 
         array[c] = element;
