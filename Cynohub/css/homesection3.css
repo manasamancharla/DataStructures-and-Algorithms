@@ -1,0 +1,105 @@
+.hs3-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.hs3-container ul > li {
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+}
+
+.hs3-div1 {
+  position: relative;
+}
+
+.hs3-div1 > img {
+  width: 574px;
+  height: 330px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.fa-solid.fa-check {
+  font-size: 15px;
+  color: #20ad96;
+  margin-right: 1rem;
+}
+
+.hs3-div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.hs3-div2 > ul,
+.hs3-div4 > ul {
+  height: 183px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hs3-div2 > h3 {
+  color: #3f3a64;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.hs3-div3 {
+  position: relative;
+}
+
+.hs3-div3 > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hs3-div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.hs3-div4 > h3 {
+  color: #3f3a64;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.hs3-div4 > h2 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+}
+
+.hs3-button {
+  width: 173.17px;
+  height: 52px;
+  background-color: #f7b743;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: var(--transition);
+}
+
+.hs3-button:hover {
+  background-color: #000;
+}
