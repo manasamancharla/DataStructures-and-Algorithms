@@ -3,7 +3,7 @@ using namespace std;
 
 // minimum or maximum to the front
 // Time complexity O(n2)
-// Space complexity Os(n)
+// Space complexity O(n)
 void recursiveSelectionSort(vector<int> &arr, int min)
 {
   if (min == arr.size() - 1)
